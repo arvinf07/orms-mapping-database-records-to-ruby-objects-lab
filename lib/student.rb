@@ -1,8 +1,10 @@
+require 'pry'
+
 class Student
   attr_accessor :id, :name, :grade
 
   def self.new_from_db(row)
-    # create a new Student object given a row from the database
+    binding.pry
   end
 
   def self.all
